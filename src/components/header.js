@@ -17,7 +17,7 @@ import logo2 from '../images/logo2.png'
 
 export default function Header() {
   return (
-    <Popover className="relative  z-40 border-b border-black">
+    <Popover className="relative  z-40 border-b border-darkGrey">
       <div className=" xl:max-w-6xl 2xl:max-w-7xl lg:max-w-5xl md:max-w-3xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center pt-9 pb-3 md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -40,16 +40,16 @@ export default function Header() {
           <Popover.Group as="nav" className="hidden md:flex md:space-x-6 lg:space-x-10 items-center">
             
 
-            <Link to="/" className="text-sm lg:text-base font-medium text-black hover:text-secondary underline-offset-2 decoration-2">
+            <Link to="/" className="text-sm lg:text-base font-medium hover:text-primary hover:font-semibold text-black hover:text-secondary underline-offset-2 decoration-2">
               HOME
             </Link>
-            <Link to="/Products/" className="text-sm lg:text-base font-medium text-black hover:text-secondary underline-offset-2 decoration-2">
+            <Link to="/Products/" className="text-sm lg:text-base hover:text-primary hover:font-semibold font-medium text-black hover:text-secondary underline-offset-2 decoration-2">
               PRODUCT
             </Link>
-            <Link to="/AboutUs/" className="text-sm lg:text-base font-medium text-black hover:text-secondary underline-offset-2 decoration-2">
+            <Link to="/AboutUs/" className="text-sm lg:text-base hover:text-primary hover:font-semibold font-medium text-black hover:text-secondary underline-offset-2 decoration-2">
               ABOUT US
             </Link>
-            <Link to="/CallUs/" className= "first-letter: text-sm lg:text-base font-bold text-white py-1 px-3 text-center bg-primary hover:font-bold rounded-xl  underline-offset-2 decoration-2">
+            <Link to="/CallUs/" className= "first-letter: text-sm  hover:font-semibold lg:text-base  text-white py-1 px-3 text-center bg-primary rounded-xl  underline-offset-2 decoration-2">
               CALL US
             </Link>
 

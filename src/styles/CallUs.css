@@ -1,0 +1,50 @@
+.column1Call {
+    width: 336px;
+    height: 474px;
+    box-shadow: -12px 13px 24px rgba(0, 0, 0, 0.11);
+    border-radius: 120px 0px;
+    margin: 100px 0 150px 0;
+}
+.titleCall {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 167%;
+    color: #474747;
+    padding: 0 0 20px 20px;
+}
+.addressDiv {
+    padding: 0 45px 0 0;
+}
+.addressTextCall {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #474747;
+    padding: 0 20px 0 0;
+}
+.column2Call {
+    margin: 100px 0 150px 0;
+}
+.titleGetCall {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 167%;
+    color: #474747;
+}
+.subTitleGetCall {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #474747;
+}
+.textFieldCall {
+    width: 700px;
+    box-shadow: -12px 13px 24px rgba(0, 0, 0, 0.11);
+    border-radius: 13px;
+}
+.textAreaCall {
+    width: 700px;
+    height: 170px;
+    box-shadow: -12px 13px 24px rgba(0, 0, 0, 0.11);
+    border-radius: 13px;
+}

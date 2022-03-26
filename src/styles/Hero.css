@@ -1,0 +1,23 @@
+.itemNameTitleHero {
+    font-size: 32px;
+    line-height: 114%;
+    color: #3E3C3C;
+    padding: 10px 0 100px;
+}
+.productRectangleHero {
+    width: 240px;
+    height: 280px;
+}
+.productImageHero {
+    width: 200px;
+    height: 200px;
+    background-clip: border-box;
+    object-fit: cover;
+    padding: 25px 0 10px 0;
+}
+.productNameHero {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    width: 190px;
+}

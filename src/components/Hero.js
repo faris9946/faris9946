@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/Hero.css'
 
 import bgHero from '../images/bg.png'
 import Slider1 from '../images/slider1.png'
@@ -24,43 +25,44 @@ const Hero = () => {
             </div>
         </div>
 
-        <h1 className='text-center'>GT-1526 Continuous Belt<br/>Laminator Model</h1>
+        <h1 className='itemNameTitleHero text-center'>GT-1526 Continuous Belt<br/>Laminator Model</h1>
         
         <div className='flex justify-center'>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
-                <Link to='/ProductDetail/'>
-                <div className='bg-white w-60 h-66 shadow-lg rounded-2xl p-6'>
-                    <img src={product1} alt='pro' />
-                    <h1 className = "text-center pt-3">Semi-automatic 2-in-1 thermal laminating and cutting machine</h1>
+                
+                <Link to='/ProductDetail/'><div className='productRectangleHero bg-white shadow-lg rounded-2xl'>
+                    <div className='flex justify-center'><img className='productImageHero' src={product1} alt='pro' /></div>
+                    <div className='flex justify-center'><h1 className = "productNameHero text-center pt-3">Semi-automatic 2-in-1 thermal laminating and cutting machine</h1></div>
                 </div></Link>
-                <div className='bg-white w-60 h-66 shadow-lg rounded-2xl p-6'>
-                    <img src={product1} alt='pro' />
-                    <h1 className = "text-center pt-3">Semi-automatic 2-in-1 thermal laminating and cutting machine</h1>
-                </div>
-                <div className='bg-white w-60 h-66 shadow-lg rounded-2xl p-6'>
-                    <img src={product1} alt='pro' />
-                    <h1 className = "text-center pt-3">Semi-automatic 2-in-1 thermal laminating and cutting machine</h1>
-                </div>
-                <div className='bg-white w-60 h-66 shadow-lg rounded-2xl p-6'>
-                    <img src={product1} alt='pro' />
-                    <h1 className = "text-center pt-3">Semi-automatic 2-in-1 thermal laminating and cutting machine</h1>
-                </div>
-                <div className='bg-white w-60 h-66 shadow-lg rounded-2xl p-6'>
-                    <img src={product1} alt='pro' />
-                    <h1 className = "text-center pt-3">Semi-automatic 2-in-1 thermal laminating and cutting machine</h1>
-                </div>
-                <div className='bg-white w-60 h-66 shadow-lg rounded-2xl p-6'>
-                    <img src={product1} alt='pro' />
-                    <h1 className = "text-center pt-3">Semi-automatic 2-in-1 thermal laminating and cutting machine</h1>
-                </div>
-                <div className='bg-white w-60 h-66 shadow-lg rounded-2xl p-6'>
-                    <img src={product1} alt='pro' />
-                    <h1 className = "text-center pt-3">Semi-automatic 2-in-1 thermal laminating and cutting machine</h1>
-                </div>
-                <div className='bg-white w-60 h-66 shadow-lg rounded-2xl p-6'>
-                    <img src={product1} alt='pro' />
-                    <h1 className = "text-center pt-3">Semi-automatic 2-in-1 thermal laminating and cutting machine</h1>
-                </div>
+                <Link to='/ProductDetail/'><div className='productRectangleHero bg-white shadow-lg rounded-2xl'>
+                    <div className='flex justify-center'><img className='productImageHero' src={product1} alt='pro' /></div>
+                    <div className='flex justify-center'><h1 className = "productNameHero text-center pt-3">Semi-automatic 2-in-1 thermal laminating and cutting machine</h1></div>
+                </div></Link>
+                <Link to='/ProductDetail/'><div className='productRectangleHero bg-white shadow-lg rounded-2xl'>
+                    <div className='flex justify-center'><img className='productImageHero' src={product1} alt='pro' /></div>
+                    <div className='flex justify-center'><h1 className = "productNameHero text-center pt-3">Semi-automatic 2-in-1 thermal laminating and cutting machine</h1></div>
+                </div></Link>
+                <Link to='/ProductDetail/'><div className='productRectangleHero bg-white shadow-lg rounded-2xl'>
+                    <div className='flex justify-center'><img className='productImageHero' src={product1} alt='pro' /></div>
+                    <div className='flex justify-center'><h1 className = "productNameHero text-center pt-3">Semi-automatic 2-in-1 thermal laminating and cutting machine</h1></div>
+                </div></Link>
+                <Link to='/ProductDetail/'><div className='productRectangleHero bg-white shadow-lg rounded-2xl'>
+                    <div className='flex justify-center'><img className='productImageHero' src={product1} alt='pro' /></div>
+                    <div className='flex justify-center'><h1 className = "productNameHero text-center pt-3">Semi-automatic 2-in-1 thermal laminating and cutting machine</h1></div>
+                </div></Link>
+                <Link to='/ProductDetail/'><div className='productRectangleHero bg-white shadow-lg rounded-2xl'>
+                    <div className='flex justify-center'><img className='productImageHero' src={product1} alt='pro' /></div>
+                    <div className='flex justify-center'><h1 className = "productNameHero text-center pt-3">Semi-automatic 2-in-1 thermal laminating and cutting machine</h1></div>
+                </div></Link>
+                <Link to='/ProductDetail/'><div className='productRectangleHero bg-white shadow-lg rounded-2xl'>
+                    <div className='flex justify-center'><img className='productImageHero' src={product1} alt='pro' /></div>
+                    <div className='flex justify-center'><h1 className = "productNameHero text-center pt-3">Semi-automatic 2-in-1 thermal laminating and cutting machine</h1></div>
+                </div></Link>
+                <Link to='/ProductDetail/'><div className='productRectangleHero bg-white shadow-lg rounded-2xl'>
+                    <div className='flex justify-center'><img className='productImageHero' src={product1} alt='pro' /></div>
+                    <div className='flex justify-center'><h1 className = "productNameHero text-center pt-3">Semi-automatic 2-in-1 thermal laminating and cutting machine</h1></div>
+                </div></Link>
+                
             </div>
         </div>
 

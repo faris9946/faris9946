@@ -1,0 +1,21 @@
+.roundRectangleAbout {
+    height: max-content;
+    box-shadow: -12px 13px 24px rgba(0, 0, 0, 0.11);
+    border-radius: 233px 0px;
+    padding: 100px 0;
+    margin: 100px 0 150px 0;
+}
+.titleAbout {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 95%;
+    color: #474747;
+}
+.subTitleAbout {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 167%;
+    color: #474747;
+    padding: 10px 90px 0 90px;
+    text-align: justify;
+}
